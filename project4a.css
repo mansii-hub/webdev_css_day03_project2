@@ -1,0 +1,36 @@
+#container{
+    height:200px;
+    width: 300px;
+    background-color: darkblue;
+    position: relative;
+
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+.first, .third{
+    height:50px;
+    width: 300px;
+    position: absolute;
+    background-color: red;
+}
+
+.third{
+    bottom: 0px;
+    right: 0px;
+}
+
+#circle{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    border-radius: 100px;
+    top:60px;
+    left : 100px;
+    bottom: 40px;
+    
+}
+
